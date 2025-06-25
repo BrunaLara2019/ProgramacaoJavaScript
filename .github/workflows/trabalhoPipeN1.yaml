@@ -1,10 +1,10 @@
-name: Pipeline N1 - Testes da Pasta 'testes' (Mocha)
+name: Pipeline N1 - Testes da Pasta 'testes'
 
 on:
   push:
-    branches: [main]  # Executa a pipeline em qualquer push na branch main
+    branches: [main]
   pull_request:
-    branches: [main]  # Executa a pipeline em qualquer pull request na branch main
+    branches: [main]
 
 jobs:
   testes-n1:
@@ -17,10 +17,10 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # Altere conforme a versão do Node do seu projeto
+          node-version: '18'
 
       - name: Instalar dependências
         run: npm install
 
-      - name: Executar testes da pasta 'testes' com Mocha
+      - name: Executar testes da pasta 'testes'
         run: npx mocha testes/**/*.js
