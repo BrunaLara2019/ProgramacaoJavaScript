@@ -23,4 +23,4 @@ jobs:
         run: npm install
 
       - name: Executar testes da pasta 'testes'
-        run: npx mocha testes/**/*.js
+        run: npm test
