@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./testes/**/*.js"
+    "test": "mocha ./trabalho/*/.js\"\n}"
   },
   "keywords": [],
   "author": "",
