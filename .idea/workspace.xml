@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af004f72-8cf7-4b12-8fa4-80f3346784ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/trabalhoPipeN1.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/trabalhoPipeN1.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabalho/trabalho-final/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/trabalho/trabalho-final/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
